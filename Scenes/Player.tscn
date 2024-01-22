@@ -1,5 +1,6 @@
-[gd_scene load_steps=12 format=3 uid="uid://cwea7oqemx7fy"]
+[gd_scene load_steps=13 format=3 uid="uid://cwea7oqemx7fy"]
 
+[ext_resource type="Script" path="res://Scripts/Player.gd" id="1_a513g"]
 [ext_resource type="Texture2D" uid="uid://d0djok8y1fmuk" path="res://Assets/Player/Player Front Sheet.png" id="1_r67gt"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jiam7"]
@@ -69,6 +70,7 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_a513g")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_jiam7")
