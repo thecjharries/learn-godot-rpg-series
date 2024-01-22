@@ -11,7 +11,15 @@ config_version=5
 [application]
 
 config/name="Learn-godot-rpg-series"
+run/main_scene="res://Scenes/Main.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=320
+window/size/viewport_height=180
+window/size/mode=2
+window/stretch/mode="viewport"
 
 [input]
 
